@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f2f0eb;
+  color: #242220;
+}
+
+/* Ticket-style perforation divider */
+.ticket-edge {
+  background-image: radial-gradient(circle, #f2f0eb 3px, transparent 3px);
+  background-size: 14px 14px;
+  background-position: center;
+}
+
+:focus-visible {
+  outline: 2px solid #c77e1e;
+  outline-offset: 2px;
+}
